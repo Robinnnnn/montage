@@ -1,4 +1,4 @@
-# Montage
+# Montage Agent Skill
 
 An agent skill for creating montages from photos, Live Photos, and videos, with optional editable handoffs.
 
@@ -33,7 +33,9 @@ The agent can stage each clip to be edited separately in a program of your choic
 
 ## Installation
 
-Copy [`skills/video-montage/`](skills/video-montage/) into your agent's skills directory. Requires Python 3.9+, FFmpeg, and ffprobe. See [photo and Live Photo requirements](skills/video-montage/references/media.md) for those inputs.
+Copy [`skills/montage/`](skills/montage/) into your agent's skills directory. Requires Python 3.9+, FFmpeg, and ffprobe. See [photo and Live Photo requirements](skills/montage/references/media.md) for those inputs.
+
+After installation, invoke `$montage` in Codex or `/montage` in Claude Code, followed by your request and the location of your footage.
 
 Keep your footage and working files outside this repository.
 

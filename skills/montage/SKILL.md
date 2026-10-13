@@ -1,9 +1,9 @@
 ---
-name: video-montage
+name: montage
 description: Create or revise montages from photos, Live Photos, and videos, such as travel recaps and family highlights. Optionally export separate clips for further editing in a video editor.
 ---
 
-# Video montage
+# Montage
 
 The user describes the montage and points to the footage. Handle sorting and selection, then deliver an MP4 after checking the render and playback.
 
