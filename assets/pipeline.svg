@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="700" viewBox="0 0 1680 700" role="img" aria-labelledby="title desc">
+  <title id="title">From camera roll to final cut</title>
+  <desc id="desc">Intended montage workflow. A folder or archive is cataloged and turned into contact sheets before the agent filters assets. Photos, Live Photos, and videos follow separate review paths that converge on exact source windows and still holds. The timeline is planned, validated, rendered, and reviewed through technical checks, agent review, and your playback. Feedback can change moments or adjust the timeline. Acceptance produces a reference MP4. An optional editable handoff reuses the saved cut list and selected media to create a clip kit, with an optional CapCut project assembled and verified in the editor.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#78827d" stroke-width="1.2"/></marker>
+    <marker id="return" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#9b6651" stroke-width="1.2"/></marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .heading { font-size: 22px; font-weight: 600; fill: #263c34; }
+      .body { font-size: 19px; fill: #516159; }
+      .section { font-size: 19px; fill: #69776f; }
+      .flow { fill: none; stroke: #78827d; stroke-width: 1.5; marker-end: url(#arrow); }
+      .feedback { fill: none; stroke: #9b6651; stroke-width: 1.5; stroke-dasharray: 5 5; marker-end: url(#return); }
+      .note { font-size: 18px; fill: #8e5947; }
+    </style>
+  </defs>
+  <rect width="1680" height="700" rx="12" fill="#f8f7f2"/>
+  <g transform="translate(0 -110)">
+  <text x="40" y="154" class="section">Prepare the evidence</text>
+  <text x="290" y="154" class="section">Decide what belongs</text>
+  <text x="560" y="154" class="section">Review by media type</text>
+  <text x="870" y="154" class="section">Choose the cuts</text>
+  <text x="1140" y="154" class="section">Build and review</text>
+  <rect x="40" y="186" width="220" height="82" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="56" y="217" class="heading">Folder or archive</text>
+  <text x="56" y="247" class="body">Original media</text>
+  <rect x="40" y="290" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="56" y="321" class="heading">Catalog originals</text>
+  <text x="56" y="351" class="body">Metadata, identities,</text>
+  <text x="56" y="376" class="body">duplicate proposals</text>
+  <rect x="40" y="422" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="56" y="453" class="heading">Contact sheets</text>
+  <text x="56" y="483" class="body">Stills + timestamped</text>
+  <text x="56" y="508" class="body">video frames</text>
+  <rect x="290" y="422" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="306" y="453" class="heading">Filter assets</text>
+  <text x="306" y="483" class="body">Agent: relevance,</text>
+  <text x="306" y="508" class="body">exclusions, duplicates</text>
+  <rect x="560" y="218" width="255" height="96" rx="5" fill="#edf2ed" stroke="#cad6ca"/>
+  <text x="576" y="249" class="heading">Photos</text>
+  <text x="576" y="279" class="body">Shortlist meaningful stills</text>
+  <rect x="560" y="350" width="255" height="124" rx="5" fill="#edf2ed" stroke="#cad6ca"/>
+  <text x="576" y="381" class="heading">Live Photos</text>
+  <text x="576" y="411" class="body">Verify pair + still anchor</text>
+  <text x="576" y="436" class="body">Inspect nearby motion</text>
+  <text x="576" y="461" class="body">Use stills if unsuitable</text>
+  <rect x="560" y="510" width="255" height="110" rx="5" fill="#edf2ed" stroke="#cad6ca"/>
+  <text x="576" y="541" class="heading">Videos</text>
+  <text x="576" y="571" class="body">Phone / compatible GoPro</text>
+  <text x="576" y="596" class="body">Scout broadly, then closely</text>
+  <rect x="870" y="422" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="886" y="453" class="heading">Exact moments</text>
+  <text x="886" y="483" class="body">Source windows,</text>
+  <text x="886" y="508" class="body">still holds, reasons</text>
+  <rect x="1140" y="218" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="1156" y="249" class="heading">Plan the timeline</text>
+  <text x="1156" y="279" class="body">Order + pacing</text>
+  <text x="1156" y="304" class="body">Framing + sound</text>
+  <rect x="1140" y="350" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="1156" y="381" class="heading">Validate and render</text>
+  <text x="1156" y="411" class="body">Scripts: timing, color,</text>
+  <text x="1156" y="436" class="body">sources, assembly</text>
+  <rect x="1140" y="510" width="220" height="110" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="1156" y="541" class="heading">Review the draft</text>
+  <text x="1156" y="571" class="body">Checks + agent review</text>
+  <text x="1156" y="596" class="body">+ your playback</text>
+  <rect x="1420" y="510" width="220" height="110" rx="5" fill="#dfece1" stroke="#91ab95"/>
+  <text x="1436" y="541" class="heading">Reference MP4</text>
+  <text x="1436" y="571" class="body">Accepted edit</text>
+  <path d="M150 268 V290" class="flow"/>
+  <path d="M150 400 V422" class="flow"/>
+  <path d="M260 477 H290" class="flow"/>
+  <path d="M510 477 H535 V266 H560" class="flow"/>
+  <path d="M535 477 V412 H560" class="flow"/>
+  <path d="M535 477 V565 H560" class="flow"/>
+  <path d="M815 266 H840 V477 H870" class="flow"/>
+  <path d="M815 412 H840" fill="none" stroke="#78827d" stroke-width="1.5"/>
+  <path d="M815 565 H840 V477" fill="none" stroke="#78827d" stroke-width="1.5"/>
+  <path d="M1090 477 H1114 V266 H1140" class="flow"/>
+  <path d="M1250 328 V350" class="flow"/>
+  <path d="M1250 460 V510" class="flow"/>
+  <path d="M1360 565 H1420" class="flow"/>
+  <path d="M1530 620 V660 H1250 V710" class="flow"/>
+  <path d="M1360 751 H1420" class="flow"/>
+  <path d="M1140 579 H1128 V654 H980 V532" class="feedback"/>
+  <path d="M1315 510 V490 H1388 V190 H1250 V218" class="feedback"/>
+  <text x="1270" y="180" class="note">Adjust timeline</text>
+  <text x="980" y="682" class="note">Change moments</text>
+  <text x="1420" y="487" class="section">On acceptance</text>
+  <rect x="1140" y="710" width="220" height="82" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="1156" y="741" class="heading">Editable clip kit</text>
+  <text x="1156" y="771" class="body">Clips, manifest, MP4</text>
+  <rect x="1420" y="710" width="220" height="82" rx="5" fill="#fffefa" stroke="#d2d9d1"/>
+  <text x="1436" y="741" class="heading">CapCut · optional</text>
+  <text x="1436" y="771" class="body">Assemble + verify</text>
+  </g>
+</svg>

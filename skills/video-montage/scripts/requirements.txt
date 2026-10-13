@@ -1,0 +1,3 @@
+# Photo preparation only; the other helpers use the Python standard library.
+Pillow>=10.1
+pillow-heif

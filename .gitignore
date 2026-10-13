@@ -1,0 +1,16 @@
+# Local system, dependency, and credential files
+.DS_Store
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Working media and editor artifacts belong outside the skill repository.
+work/
+source-media/
+exports/
+renders/
+editor-projects/
