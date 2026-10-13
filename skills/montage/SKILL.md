@@ -7,6 +7,10 @@ description: Create or revise montages from photos, Live Photos, and videos, suc
 
 The user describes the montage and points to the footage. Handle sorting and selection, then deliver an MP4 after checking the render and playback.
 
+## Creative reference
+
+For a creative reference, see the [example montage](https://drive.google.com/file/d/1C3Xrtr9U06JoC5iLx07R1_5kCdPS2lbO/view). If the user wants a similar style, review its pacing, sequencing, framing, and mix of stills and motion, then adapt those choices to their footage and preferences. Treat music and finishing effects as optional choices.
+
 ## Workflow
 
 1. Locate the footage and apply any requested date range. Preserve originals and work in a separate folder outside this repository.
