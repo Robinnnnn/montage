@@ -11,10 +11,6 @@ Handle this end to end: art direction, implementation, local dependencies, rende
 
 Work in the requested project directory. Use React/TypeScript and Remotion for animation. Python audio synthesis and FFmpeg can help with sound and media preparation.
 
-## Example reference
-
-See [this motion explainer](https://drive.google.com/file/d/1pjr_U-lLN8tP6xqgwIvJn3tQ7iAVOF3H/view?usp=drivesdk) for an example of the intended level of craft. You may watch it for ideas about pacing, transitions, and sound, then adapt those techniques to your subject.
-
 ## Format
 
 Unless the brief specifies otherwise, aim for 45–60 seconds, 1920×1080, at 60fps.
@@ -55,3 +51,7 @@ Deliver:
 - Verification of duration, frame count, dimensions, color, full decode, and audio timing/levels when audio is present.
 
 State which checks actually occurred and any review still needed. Do not call it finished just because compilation succeeds.
+
+## Example reference
+
+See [this motion explainer](https://drive.google.com/file/d/1pjr_U-lLN8tP6xqgwIvJn3tQ7iAVOF3H/view?usp=drivesdk) for an example of the intended level of craft. You may watch it for ideas about pacing, transitions, and sound, then adapt those techniques to your subject.
