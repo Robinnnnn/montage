@@ -4,8 +4,8 @@ My reusable skills for coding agents.
 
 | Skill | What it does |
 |---|---|
-| [Montage](skills/montage/) | Turn photos, Live Photos, and videos into a montage, with optional export to a video editor. |
-| [Motion explainer](skills/motion-explainer/SKILL.md) | Create animated explainers with Remotion, with an MP4 and editable source. |
+| [montage](skills/montage/) | Turn photos, Live Photos, and videos into a montage, with optional export to a video editor. |
+| [motion-explainer](skills/motion-explainer/SKILL.md) | Create animated explainers with Remotion, with an MP4 and editable source. |
 
 ## Install
 
