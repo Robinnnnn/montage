@@ -1,34 +1,57 @@
 ---
 name: motion-explainer
-description: Create or revise animated explainers, product walkthroughs, and process videos with Remotion. Use for code-driven motion graphics; use montage for highlight reels assembled from existing footage.
+description: Create or revise motion-graphics explainers, coding tutorials, and product walkthroughs with Remotion. Use montage for highlight reels assembled from existing footage.
 ---
 
 # Motion explainer
 
-Build and render a complete explainer, delivering an MP4 and editable source.
+Create a polished motion-graphics explainer of the user's topic.
 
-## Shape the story
+Handle this end to end: art direction, implementation, local dependencies, rendering, visual inspection, refinement, sound design, and a verified reviewable MP4. Implement and render it; do not stop at a plan or return source code in the chat.
 
-Establish the audience, main takeaway, factual sequence, available assets, duration, and output format from the request. Ask about gaps that would change the film. Write a short scene outline describing what the viewer sees changing at each step.
+Work in the requested project directory. Use React/TypeScript and Remotion for animation. Python audio synthesis and FFmpeg can help with sound and media preparation.
 
-Follow a recognizable object or example through the process. Show operations changing its visible state, carrying its identity and useful geometry across scenes. For example, a media tile can become a contact-sheet cell, expand to reveal a selected moment, and settle into a timeline before playing in the finished film.
+## Example reference
 
-Use restrained typography, a coherent palette, and short copy. Let motion explain cause and effect: masks can reveal a selection, reframing can direct attention, and continuous layout changes can show a new relationship. Choose motion weights that make actions feel distinct. A sequence of cards and fades rarely communicates a process as clearly as an object being transformed.
+See [this motion explainer](https://drive.google.com/file/d/1pjr_U-lLN8tP6xqgwIvJn3tQ7iAVOF3H/view?usp=drivesdk) for an example of the intended level of craft. You may watch it for ideas about pacing, transitions, and sound, then adapt those techniques to your subject.
 
-When references are supplied, inspect them and identify the techniques worth adapting to the subject. Preserve factual distinctions even when simplifying the story. Label conceptual demonstrations as illustrative; do not invent measurements or results.
+## Format
 
-## Build picture and sound together
+Unless the brief specifies otherwise, aim for 45–60 seconds, 1920×1080, at 60fps.
 
-Prefer React, TypeScript, and Remotion, with FFmpeg for media preparation and encoding. Adapt an existing project where practical. Keep factual content and asset metadata separate from animation so revisions update every appearance consistently.
+## Creative direction
 
-Use a shared frame-based timeline for scenes, transitions, and sound cues. Match effects to meaningful actions, and leave room for narration when present. A restrained score should support the explanation. Respect the requested audio direction, including silence.
+Make it elegant, calm, and very clear. Use restrained typography, a cohesive palette, purposeful motion, and readable copy.
 
-Preserve approved framing and selection windows. Prepared clips may already start at the chosen moment: play those from zero instead of seeking again using an original-source timestamp. Check playback cadence when source and composition frame rates differ. If a component repeats or skips frames unexpectedly, compare decoded frames; explicit frame-indexed image playback can help with short examples.
+Use visual continuity to connect scenes. Where useful, carry an object, example, or layout into the next scene and transform it to explain what happens next.
 
-## Render, inspect, refine
+Use continuous layout transformations, masks, camera reframing, and carefully chosen motion curves when they help understanding. Avoid an animated slide deck of repeated cards, caption bars, arrows, and fades. Avoid decorative motion that adds no meaning.
 
-Render representative scenes and transition boundaries early. Inspect for clipping, overlap, illegible labels, empty stages, and breaks in continuity. Fix observed problems before rendering the full movie.
+## Story
 
-Review continuous playback and listen when tools permit; still images cannot establish pacing or sound quality. Verify the output dimensions, frame rate, duration, successful full decode, and intended media windows. Check audio timing, peaks, and cue alignment when audio is present. State which checks actually occurred and any review still needed.
+Establish the audience, the sequence to explain, and the main takeaway from the request. Ask about missing facts that would change the film. Shape the scenes around what the viewer needs to understand.
 
-Deliver the MP4, editable source, and the commands needed to reproduce it. For revisions, preserve accepted art direction and update linked thumbnails, captions, media windows, and sound cues together. Stop when the requested corrections pass review.
+## Assets and facts
+
+Use supplied assets where relevant, and create visuals suited to the topic. Keep recurring examples recognizable and preserve the meaning of real content. Preserve the composition and identity of supplied assets. Label conceptual illustrations clearly. Do not invent evidence, measurements, or results.
+
+## Sound
+
+Create an original, restrained synthesized score and subtle effects synchronized to meaningful visual actions, unless the brief calls for a different approach or silence. Let picture and sound share a precise cue timeline.
+
+## Creative ownership
+
+You may restructure scenes and add components or dependencies within the project. Use your judgment to achieve a coherent film. Prioritize clarity over spectacle and continuity over unrelated transitions.
+
+## Review and delivery
+
+Render representative scenes and key transitions, inspect the images, and fix visible problems before the full render. Review continuous playback and listen when tools permit; still images cannot establish pacing or sound quality.
+
+Deliver:
+
+- The MP4.
+- Editable source and reproduction instructions.
+- Concise creative notes.
+- Verification of duration, frame count, dimensions, color, full decode, and audio timing/levels when audio is present.
+
+State which checks actually occurred and any review still needed. Do not call it finished just because compilation succeeds.
