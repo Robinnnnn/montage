@@ -1,6 +1,6 @@
 # Skills
 
-My reusable skills for coding agents.
+Some skills for vibing
 
 | Skill | What it does |
 |---|---|
