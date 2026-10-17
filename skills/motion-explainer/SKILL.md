@@ -11,6 +11,8 @@ Work in the requested project directory. Use React/TypeScript and Remotion for a
 
 Restructure scenes and add components or dependencies as needed. Prioritize clarity over spectacle.
 
+For a detailed execution brief, adapt [production-prompt.md](references/production-prompt.md). The [fictional document-review example](references/process-explainer.md) supplies a complete topic without external assets.
+
 ## Format
 
 Default to 45–60 seconds, 1920×1080, at 60fps unless requested otherwise.
